@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <title>Cloudex (CSS Final)</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./fonts.css"type="text/css">
+    </head>
+    <body>
+    	<header>
+    		<p class="header__logo"></p>
+    		<p class="header__text">Cloudex</p>
+    	</header>
+    	<label class="open-toggle-menu" for="toggle-menu">
+            <p class="genericon genericon-menu"> 
+                <div class="container" onclick="burgerMenu(this)">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+            </p>
+        </label>
+        <input id="toggle-menu" type="checkbox" />
+		    <nav>
+    			<a href="#" class="nav__features">Features</a>
+    			<a href="#" class="nav__contact">Contact</a>
+    			<a href="#" class="nav__faq">FAQ</a>
+    			<a href="#" class="nav__support">Support</a>
+    			<a href="#"><img src="img\facebook_button.png" class="nav__img nav__img_facebook" alt="" ></a>
+    			<a href="#"><img src="img\twitter_button.png" class="nav__img nav__img_twitter" alt="" ></a>
+    		</nav>
+    	<div class="website-background"></div>
+    	<div class="website-background website-background_alt"></div>
+        <section class="section__text">
+        <p>
+        	Unlimited access.
+
+			To all your data.
+
+			Totally free.	
+        </p>
+        </section>
+        <section class="section__text section__text_alt">
+        <p>
+        	Secure unlimited File Sharing and Storage for your Business. Absolutely Free! Iterate In Real Time. Comment With Style. Share Instantly.
+        </p>
+        </section>
+        <section class="section__submit">
+        	<form action="/index.php" method="post">
+   <p class="section__submit section__submit_text">Take part in beta:</p>
+   <input type="text" name="email" value="" class="section__submit section__submit_input" placeholder="E-Mail" required><br>
+   <input type="submit" value="Get early access" class="section__submit section__submit_button">
+   <p class="section__submit section__submit_agreement">By clicking sign-up, i agree to the Terms of Service and 
+Privacy Policy</p>
+</form>
+</section>		
+        <footer>
+        	<div></div>
+        </footer>
+    </body>
+</html>
