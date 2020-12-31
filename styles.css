@@ -41,13 +41,23 @@
 		font-size: 30px;
 	}
 
+	#toggle-menu {
+		visibility: hidden;
+	}
+
 	nav a {
 		text-decoration: none;
 	}
 
+	nav a:hover {
+		text-decoration: underline;
+		background: #2E1449;
+    	color: #FFF;
+	}
+
 	.nav__features {
 		position: absolute;
-		width: 71px;
+		width: 55px;
 		height: 22px;
 		left: calc(50% - 71px/2 + 416.5px);
 		top: 68px;
@@ -61,7 +71,7 @@
 
 	.nav__contact {
 		position: absolute;
-		width: 64px;
+		width: 50px;
 		height: 22px;
 		left: calc(50% - 64px/2 + 508px);
 		top: 68px;
@@ -75,7 +85,7 @@
 
 	.nav__faq {
 		position: absolute;
-		width: 33px;
+		width: 25px;
 		height: 22px;
 		left: calc(50% - 33px/2 + 580.5px);
 		top: 68px;
@@ -89,7 +99,7 @@
 
 	.nav__support {
 		position: absolute;
-		width: 65px;
+		width: 50px;
 		height: 22px;
 		left: calc(50% - 65px/2 + 653.5px);
 		top: 68px;
@@ -196,6 +206,12 @@
 		line-height: 25px;
 		text-align: center;
 		color: #FFFFFF;
+	}
+
+	.section__submit_button:hover {
+		background: #380B61;
+		color: #ffe;
+    	text-decoration: underline;
 	}
 
 	.section__submit_agreement {
@@ -618,7 +634,9 @@
 	}
 
 	nav a:hover {
-		background: #DDD;
+		text-decoration: underline;
+		background: #2E1449;
+    	color: #FFF;
 	}
 
 	.container {
@@ -661,29 +679,29 @@
 	}
 
 	.nav__features, .nav__contact, .nav__faq, .nav__support {
-		position: revert;
-		width: revert;
-		height: revert;
-		left: revert;
-		top: revert;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
 		z-index: 1000;
 	}
 
 	.nav__img_facebook {
-		position: revert;
-		width: revert;
-		height: revert;
-		left: revert;
-		top: revert;
+		position: relative;
+		width: 10%;
+		height: 10%;
+		left: 3%;
+		top: 0;
 		z-index: 1000;
 	}
 
 	.nav__img_twitter {
-		position: revert;
-		width: revert;
-		height: revert;
-		left: revert;
-		top: revert;
+		position: relative;
+		width: 10%;
+		height: 10%;
+		left: 3%;
+		top: 0;
 		z-index: 1000;
 	}
 
