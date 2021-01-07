@@ -61,12 +61,12 @@
 		height: 22px;
 		left: calc(50% - 71px/2 + 416.5px);
 		top: 68px;
+		color: #2E1449;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 21px;
-		color: #2E1449;
 	}
 
 	.nav__contact {
@@ -75,12 +75,12 @@
 		height: 22px;
 		left: calc(50% - 64px/2 + 508px);
 		top: 68px;
+		color: #2E1449;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 21px;
-		color: #2E1449;
 	}
 
 	.nav__faq {
@@ -89,12 +89,12 @@
 		height: 22px;
 		left: calc(50% - 33px/2 + 580.5px);
 		top: 68px;
+		color: #2E1449;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 21px;
-		color: #2E1449;
 	}
 
 	.nav__support {
@@ -103,12 +103,12 @@
 		height: 22px;
 		left: calc(50% - 65px/2 + 653.5px);
 		top: 68px;
+		color: #2E1449;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 21px;
-		color: #2E1449;
 	}
 
 	.nav__img_facebook {
