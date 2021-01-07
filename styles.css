@@ -4,7 +4,7 @@
 		background-image: url(img/Vector.png);
 		position: absolute;
 		width: 1150px;
-		height: 840px;
+		height: 780px;
 		left: calc(50% - 1247px/2 + 422.5px);
 		top: 265px;
 		opacity: 0.8;
@@ -14,7 +14,7 @@
 		background-image: url(img/Vector_1.png);
 		position: absolute;
 		width: 1020px;
-		height: 700px;
+		height: 665px;
 		left: 688px;
 		top: 380px;
 		opacity: 0.8;
@@ -250,18 +250,18 @@
 
 	.website-background {
 		background-image: url(img/Vector_1366.png);
-		width: 798px;
-		height: 600px;
+		width: 796px;
+		height: 583px;
 		left: 570px;
-		top: 182px;
+		top: 195px;
 	}
 
 	.website-background_alt {
 		background-image: url(img/Vector_1366_1.png);
-		width: 692px;
-		height: 510px;
+		width: 691px;
+		height: 508px;
 		left: 675px;
-		top: 255.62px;
+		top: 270px;
 	}
 
 	.header__logo {
@@ -415,18 +415,18 @@
 
 	.website-background {
 		background-image: url(img/Vector_1024.png);
-		width: 626px;
-		height: 560px;
-		left: calc(50% - 927.1px/2 + 350.55px);
-		top: 184px;
+		width: 625px;
+		height: 580px;
+		left: calc(50% - 927.1px/2 + 355px);
+		top: 200px;
 	}
 
 	.website-background_alt {
 		background-image: url(img/Vector_1024_1.png);
 		width: 520px;
-		height: 560px;
-		left: calc(50% - 715px/2 + 350.55px);
-		top: 230px;
+		height: 515px;
+		left: calc(50% - 715px/2 + 355px);
+		top: 267px;
 	}
 
 	.header__logo {
@@ -589,9 +589,9 @@
 
 	.website-background {
 		background-image: url(img/Vector_375.png);
-		width: 462.76px;
+		width: 375px;
 		height: 255px;
-		left: calc(50% - 462.76px/2 - 22.6px);
+		left: 0px;
 		top: 420px;
 	}
 
