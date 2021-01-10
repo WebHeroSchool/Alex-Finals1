@@ -3,34 +3,35 @@ body {
 	width: 1366px;
 	height: 1024px;
 	background-image: url(img/Vector.png), url(img/Vector_1.png);
-	background-size: 48%, 30%;
-	background-position: 100% 100%, 100% 100%;
+	background-size: 82%, 70%;
+	background-position: 222% 100%, 170% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	opacity: 0.8;
+	overflow: hidden;
 }
 
 .header__logo {
 	position: relative;
 	background-image: url(img/Rectangle_5.2.png);
 	background-repeat: no-repeat;
-	height: 40px;
-	width: 50px;
-	top: 50px;
+	background-size: 100%;
+	height: 65px;
+	width: 65px;
+	top: 55px;
 	border-radius: 0px;
-	margin-top: 4%;
-	margin-left: 20.7%;
+	margin-left: 7.7%;
 }
 
 .header__text {
 	position: relative;
-	top: 9px;
+	top: -9px;
 	text-align: left;
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #2E1449;
-	font-size: 30px;
-	margin-left: 18.7%;
+	font-size: 39px;
+	margin-left: 4.9%;
 }
 
 #toggle-menu {
@@ -39,16 +40,16 @@ body {
 
 nav {
 	position: relative;
-	margin-top: -6.9%;
-	margin-right: -28.7%;
+	margin-top: -9.8%;
+	margin-right: 4%;
 	color: #2E1449;
 	text-align: right;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 21px;
-	word-spacing: 20px;
+	word-spacing: 28.5px;
 }
 
 nav a {
@@ -60,25 +61,20 @@ nav a:hover {
 	text-decoration: underline;
 	background: #2E1449;
    	color: #FFF;
-}
-
-.nav__img_facebook, .nav__img_twitter {
-	top: 68px;
-	width: 32px;
-	height: 32px;
+   	width: 100%;
+   	height: 100%;
 }
 
 .section__text {
 	position: relative;
-	margin-left: 18.86%;
-	margin-top: 2.8%;
-	width: 527px;
-	top: 220px;
+	margin-left: 5.2%;
+	margin-top: 15.8%;
+	width: 500px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 60.5px;
-	line-height: 70.7px;
+	font-size: 60px;
+	line-height: 66px;
 	display: flex;
 	align-items: center;
 	color: #2E1449;
@@ -86,35 +82,35 @@ nav a:hover {
 
 .section__text_alt {
 	margin-top: -2.9%;
-	margin-left: 19.31%;
-	width: 590px;
+	margin-left: 5%;
+	width: 500px;
 	font-weight: normal;
-	font-size: 21px;
-	line-height: 24px;
+	font-size: 18.7px;
+	line-height: 22px;
 }
 
 .section__submit {
-	margin-top: -5.9%;
-	margin-left: 64.2%;
-	width: 399px;
+	position: relative;
+	left: 53.1%;
+	top: -30%;
+	width: 340px;
 	height: 223.44px;
 }
 
 .section__submit_text {
+	position: relative;
 	width: 206.15px;
 	height: 31.92px;
 	font-family: 'PT Sans Caption';
 	font-style: normal;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 31px;
 	color: #2E1449;
-	padding-left: 1%;
-	padding-top: 1.5%;
-	padding-bottom: 3%;
 }
 
 .section__submit_input {
+	top: -10px;
 	width: 379px;
 	height: 53.2px;
 	background: #FFFFFF;
@@ -124,6 +120,7 @@ nav a:hover {
 }
 
 .section__submit_button {
+	top: -9.5px;
 	width: 399px;
 	height: 53.2px;
 	background: #7400E8;
@@ -155,34 +152,17 @@ nav a:hover {
 	color: #000000;
 	opacity: 0.5;
 	margin-top: 4%;
-
 }
 
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
+	width: 105%;
 	background: #7400E8;
 }
 
 @media all and (max-width: 1366px) {
-
-	body {
-		position: relative;
-		width: 1366px;
-		height: 1024px;
-		background-image: url(img/Vector_1024.png), url(img/Vector_1024_1.png);
-		background-size: 48%, 30%;
-		background-position: 100% 110%, 120% 100%;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		opacity: 0.8;
-	}
-
-}
-
-@media all and (max-width: 1024px) {
 
 	body {
 		position: relative;
@@ -194,43 +174,48 @@ footer {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		opacity: 0.8;
+		overflow: hidden;
 	}
 
 	.header__logo {
 		position: relative;
 		background-image: url(img/Rectangle_5.2.png);
 		background-repeat: no-repeat;
-		background-size: 80%;
-		width: 100px;
-		height: 66px;
+		background-size: 100%;
+		height: 65px;
+		width: 65px;
+		top: 55px;
 		border-radius: 0px;
-		margin-top: 0;
-		margin-left: 10.7%;
+		margin-left: 7.7%;
 	}
 
 	.header__text {
 		position: relative;
-		top: -10px;
+		top: -9px;
 		text-align: left;
 		font-family: sans-serif;
 		font-weight: bold;
 		color: #2E1449;
-		font-size: 40px;
-		margin-left: 7.8%;
+		font-size: 39px;
+		margin-left: 4.9%;
+	}
+
+	#toggle-menu {
+		visibility: hidden;
 	}
 
 	nav {
 		position: relative;
-		margin-top: -14%;
-		margin-right: -22%;
+		margin-top: -9.8%;
+		margin-right: 4%;
 		color: #2E1449;
 		text-align: right;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 20px;
+		font-size: 19px;
 		line-height: 21px;
-		word-spacing: 20px;
+		word-spacing: 28.5px;
 	}
 
 	nav a {
@@ -241,25 +226,21 @@ footer {
 	nav a:hover {
 		text-decoration: underline;
 		background: #2E1449;
-   		color: #FFF;
-	}
-
-	.nav__img_facebook, .nav__img_twitter {
-		width: 32px;
-		height: 32px;
+		color: #FFF;
+ 		width: 100%;
+		height: 100%;
 	}
 
 	.section__text {
 		position: relative;
-		margin-left: 7.8%;
-		margin-top: 2.8%;
-		width: 460px;
-		top: 17%;
+		margin-left: 5.2%;
+		margin-top: 15.8%;
+		width: 500px;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 55px;
-		line-height: 60px;
+		font-size: 60px;
+		line-height: 66px;
 		display: flex;
 		align-items: center;
 		color: #2E1449;
@@ -267,21 +248,23 @@ footer {
 
 	.section__text_alt {
 		margin-top: -2.9%;
-		margin-left: 7.8%;
-		width: 490px;
+		margin-left: 5%;
+		width: 500px;
 		font-weight: normal;
-		font-size: 18px;
-		line-height: 24px;
+		font-size: 18.7px;
+		line-height: 22px;
 	}
 
 	.section__submit {
-		margin-top: -18%;
-		margin-left: 60%;
-		width: 350px;
-		height: 210px;
+		position: relative;
+		left: 53.1%;
+		top: -30%;
+		width: 340px;
+		height: 223.44px;
 	}
 
 	.section__submit_text {
+		position: relative;
 		width: 206.15px;
 		height: 31.92px;
 		font-family: 'PT Sans Caption';
@@ -290,13 +273,11 @@ footer {
 		font-size: 22px;
 		line-height: 31px;
 		color: #2E1449;
-		padding-left: 1%;
-		padding-top: 1.5%;
-		padding-bottom: 3%;
 	}
 
 	.section__submit_input {
-		width: 350px;
+		top: -10px;
+		width: 379px;
 		height: 53.2px;
 		background: #FFFFFF;
 		border-radius: 5px;
@@ -305,7 +286,8 @@ footer {
 	}
 
 	.section__submit_button {
-		width: 350px;
+		top: -9.5px;
+		width: 399px;
 		height: 53.2px;
 		background: #7400E8;
 		border-radius: 5px;
@@ -342,6 +324,172 @@ footer {
 		position: fixed;
 		left: 0;
 		bottom: 0;
+		width: 105%;
+		background: #7400E8;
+	}
+
+}
+
+@media all and (max-width: 1024px) {
+
+	body {
+		position: relative;
+		width: 1024px;
+		height: 768px;
+		background-image: url(img/Vector_1024.png), url(img/Vector_1024_1.png);
+		background-size: 65%, 50%;
+		background-position: 108% 115%, 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		opacity: 0.8;
+		overflow: hidden;
+	}
+
+	.header__logo {
+		position: relative;
+		background-image: url(img/Rectangle_5.2.png);
+		background-repeat: no-repeat;
+		background-size: 95%;
+		width: 100px;
+		height: 66px;
+		border-radius: 0px;
+		margin-left: 14.5%;
+		top: 80px;
+	}
+
+	.header__text {
+		position: relative;
+		top: 6px;
+		text-align: left;
+		font-family: sans-serif;
+		font-weight: bold;
+		color: #2E1449;
+		font-size: 60px;
+		margin-left: 8.6%;
+	}
+
+	nav {
+		top: -65px;
+		left: 77%;
+		color: #2E1449;
+		text-align: right;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29.2px;
+		line-height: 21px;
+		word-spacing: 35.2px;
+	}
+
+	nav a {
+		text-decoration: none;
+		vertical-align: middle;
+	}
+
+	nav a:hover {
+		text-decoration: underline;
+		background: #2E1449;
+   		color: #FFF;
+	}
+
+	.nav__img_facebook, .nav__img_twitter {
+		width: 45px;
+		height: 45px;
+	}
+
+	.section__text {
+		position: relative;
+		margin-left: 9.3%;
+		margin-top: 2.8%;
+		width: 750px;
+		top: 27.5%;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 84.5px;
+		line-height: 100px;
+		display: flex;
+		align-items: center;
+		color: #2E1449;
+	}
+
+	.section__text_alt {
+		margin-top: -6.2%;
+		margin-left: 9.3%;
+		width: 750px;
+		font-weight: normal;
+		font-size: 27px;
+		line-height: 29px;
+	}
+
+	.section__submit {
+		margin-top: 4%;
+		margin-left: 41%;
+		width: 350px;
+		height: 210px;
+	}
+
+	.section__submit_text {
+		width: 350px;
+		height: 31.92px;
+		font-family: 'PT Sans Caption';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		line-height: 31px;
+		color: #2E1449;
+		padding-left: 1%;
+		padding-top: 1.5%;
+	}
+
+	.section__submit_input {
+		top: -20px;
+		width: 553px;
+		height: 70px;
+		background: #FFFFFF;
+		border-radius: 5px;
+		font-size: 20px;
+		padding-left: 4%;
+	}
+
+	.section__submit_button {
+		width: 575px;
+		height: 82px;
+		background: #7400E8;
+		border-radius: 5px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 25px;
+		text-align: center;
+		color: #FFFFFF;
+		margin-top: 3%;
+	}
+
+	.section__submit_button:hover {
+		background: #380B61;
+		color: #ffe;
+   		text-decoration: underline;
+	}
+
+	.section__submit_agreement {
+		width: 585px;
+		height: 82px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		line-height: 29px;
+		color: #000000;
+		opacity: 0.5;
+		margin-top: 3%;
+	}
+
+	footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
 		width: 100%;
 		background: #7400E8;
 	}
@@ -354,23 +502,31 @@ footer {
 		width: 375px;
 		height: 667px;
 		background-image: url(img/Vector_375.png);
-		background-size: 110%;
-		background-position: 100% 110%;
+		background-size: 100%;
+		background-position: 100% 100%;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		opacity: 0.8;
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 
 	.header__logo {
 		position: relative;
-		margin-left: 15%;
-		margin-top: -5px;
+		left: 11.5px;
+		top: 40px;
+		background-size: 58%;
+		width: 100px;
+		height: 66px;
+		border-radius: 0px;
+		margin-left: 14.5%;
 	}
 
 	.header__text {
 		position: relative;
-		margin-left: 7%;
-		font-size: 30px;
+		margin-left: 8%;
+		top: -35px;
+		font-size: 37px;
 	}
 
 	nav {
@@ -380,6 +536,7 @@ footer {
 		background: #FFF;
 		opacity: 1;
 		margin-top: 15px;
+		margin-left: -145%;
 		visibility: hidden;
 	}
 
@@ -399,8 +556,8 @@ footer {
 
 	.container {
 		cursor: pointer;
-		margin-top: -65px;	
-		padding-left: 400px;
+		margin-top: -124px;	
+		padding-left: 340px;
 	}
 
 	.b1, .b2, .b3 {
@@ -432,15 +589,14 @@ footer {
 	#toggle-menu:checked + nav {
 		display: flex;
 		visibility: visible;
-		top: 100%
+		top: 100%;
 		z-index: 1000;
 	}
 
 	.nav__features, .nav__contact, .nav__faq, .nav__support {
 		width: 100%;
 		height: 100%;
-		left: 0;
-		top: 50px;
+		left: 0;;
 		z-index: 1000;
 		color: #2E1449;
 		font-family: Roboto;
@@ -449,9 +605,9 @@ footer {
 	}
 
 	.nav__img_facebook, .nav__img_twitter {
-		width: 10%;
-		height: 10%;
-		left: 15%;
+		width: 45px;
+		height: 45px;
+		left: 0;
 		top: 0;
 		z-index: 1000;
 	}
@@ -460,10 +616,10 @@ footer {
 		position: relative;
 		width: 375px;
 		height: 124px;
-		left: 0;
-		top: 0%;
-		font-size: 45px;
-		line-height: 50px;
+		left: 2px;
+		top: 10%;
+		font-size: 43px;
+		line-height: 52px;
 		display: flex;
 		align-items: center;
 		text-align: center;
@@ -473,9 +629,9 @@ footer {
 		position: relative;
 		width: 340px;
 		height: 75px;
-		left: 0%;
-		top: 10%;
-		font-size: 20px;
+		left: 5.65%;
+		top: 18.8%;
+		font-size: 19px;
 		line-height: 22px;
 		display: flex;
 		align-items: center;
@@ -484,48 +640,48 @@ footer {
 
 	.section__submit {
 		position: relative;
-		width: 155px;
+		width: 205px;
 		height: 24px;
-		margin-left: 15%;
-		top: 35%;
+		margin-left: -27%;
+		top: 40%;
 	}
 
 	.section__submit_text {
 		position: relative;
-		width: 155px;
+		width: 205px;
 		height: 24px;
 		left: 0;
 		top: 5%;
-		font-size: 18px;
+		font-size: 22px;
 		line-height: 23px;
 	}
 
 	.section__submit_input {
 		position: relative;
-		width: 300px;
-		height: 40px;
+		width: 350px;
+		height: 42px;
 		left: 0;
-		top: 15%;
+		top: -15px;
 	}
 
 	.section__submit_button {
 		position: relative;
-		width: 312px;
-		height: 40px;
+		width: 363px;
+		height: 47px;
 		left: 0;
-		top: 15%;
-		font-size: 14px;
+		top: -5px;
+		font-size: 17px;
+		text-align: center;
 		line-height: 16px;
-
 	}
 
 	.section__submit_agreement {
 		position: relative;
-		width: 293px;
+		width: 363px;
 		height: 28px;
 		left: 0;
-		top: 15%;
-		font-size: 12px;
+		top: 5px;
+		font-size: 14.9px;
 		line-height: 14px;
 	}
 
