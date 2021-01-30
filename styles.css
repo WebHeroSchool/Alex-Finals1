@@ -11,19 +11,6 @@ body {
 	overflow: hidden;
 }
 
-.block-left {
-	width: 50%;
-	height: 800px;
-	overflow: auto;
-	float: left;
-}
-
-.block-right {
-	width: 50%;
-	height: 800px;
-	overflow: auto;
-}
-
 .header__logo {
 	position: relative;
 	background-image: url(img/Rectangle_5.2.png);
@@ -63,7 +50,7 @@ nav {
 	line-height: 21px;
 	word-spacing: 15.9px;
 	bottom: 6.5vh;
-	right: 11.1vw;
+	right: 11.2vw;
 }
 
 nav a {
@@ -85,8 +72,8 @@ nav a:hover {
 
 .section__text {
 	position: relative;
-	left: 25%;
-	top: 19%;
+	left: 12.5%;
+	top: 15%;
 	width: 380px;
 	height: 180px;
 	font-family: Roboto;
@@ -100,7 +87,7 @@ nav a:hover {
 }
 
 .section__text_alt {
-	left: 26.3%;
+	left: 12.9%;
 	bottom: 19vh;
 	width: 410px;
 	height: 81px;
@@ -111,8 +98,8 @@ nav a:hover {
 
 .section__submit {
 	position: relative;
-	top: 12.9vh;
-	left: 4vw;
+	top: -6vw;
+	left: 61.9vw;
 	width: 100%;
 	height: 320px;
 }
@@ -127,10 +114,13 @@ nav a:hover {
 	font-size: 16.7px;
 	line-height: 31px;
 	color: #2E1449;
+	top: 0;
+	left: 0;
 }
 
 .section__submit_input {
-	top: 13vh;
+	top: 0;
+	left: 0;
 	width: 268px;
 	height: 33px;
 	background: #FFFFFF;
@@ -139,7 +129,8 @@ nav a:hover {
 }
 
 .section__submit_button {
-	top: 14.2vh;
+	top: 1.3vh;
+	left: 0;
 	width: 275px;
 	height: 38px;
 	background: #7400E8;
@@ -169,7 +160,8 @@ nav a:hover {
 	line-height: 14.9px;
 	color: #000000;
 	opacity: 0.5;
-	top: 14vh;
+	top: 1.3vh;
+	left: 0;
 }
 
 footer {
@@ -203,24 +195,24 @@ footer {
 		width: 100px;
 		height: 66px;
 		border-radius: 0px;
-		left: 6.4vw;
-		top: 9.5vh;
+		left: 7.1vw;
+		top: 5.5vh;
 	}
 
 	.header__text {
 		position: relative;
-		top: 3.9vh;
+		top: 0vh;
 		text-align: left;
 		font-family: sans-serif;
 		font-weight: bold;
 		color: #2E1449;
 		font-size: 28px;
-		left: 3.8vw;
+		left: 4.6vw;
 	}
 
 	nav {
-		right: 11vw;
-		bottom: 4vh;
+		right: 10.4vw;
+		top: -8vh;
 		color: #2E1449;
 		text-align: right;
 		font-family: Roboto;
@@ -256,8 +248,8 @@ footer {
 		line-height: 48px;
 		display: flex;
 		color: #2E1449;
-		left: 3.9vw;
-		top: 19vh;
+		left: 4.6vw;
+		top: 15vh;
 	}
 
 	.section__text_alt {
@@ -266,15 +258,15 @@ footer {
 		font-weight: normal;
 		font-size: 13.2px;
 		line-height: 15.5px;
-		left: 3.8vw;
-		top: 16.8vh;
+		left: 4.6vw;
+		top: 12.8vh;
 	}
 
 	.section__submit {
 		width: 350px;
 		height: 210px;
-		top: 0;
-		left: 0;
+		top: -42vh;
+		left: 51vw;
 	}
 
 	.section__submit_text {
@@ -329,7 +321,7 @@ footer {
 		font-style: normal;
 		font-weight: normal;
 		font-size: 11.2px;
-		line-height: 12px;
+		line-height: 14px;
 		color: #000000;
 		opacity: 0.5;
 		left: 11vw;
@@ -349,11 +341,11 @@ footer {
 
 	body {
 		position: relative;
-		width: 375px;
-		height: 667px;
+		width: 768px;
+		height: 1366.016px;
 		background-image: url(img/Vector_375.png);
-		background-size: 108%;
-		background-position: 60% 100%;
+		background-size: 100%;
+		background-position: 100% 200%;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		opacity: 0.8;
@@ -361,16 +353,10 @@ footer {
 		overflow-y: hidden;
 	}
 
-	.block-left, .block-right {
-		width: 100%;
-		height: 50%;
-		overflow: auto;
-	}
-
 	.header__logo {
 		position: relative;
-		left: 15%;
-		top: 20vh;
+		left: 29%;
+		top: 0;
 		background-size: 50%;
 		width: 100px;
 		height: 66px;
@@ -379,8 +365,8 @@ footer {
 
 	.header__text {
 		position: relative;
-		left: 7%;
-		top: 15vh;
+		left: 25%;
+		top: -5vh;
 		font-size: 32px;
 	}
 
@@ -391,6 +377,7 @@ footer {
 		background: #FFF;
 		opacity: 1;
 		visibility: hidden;
+		padding-top: 10%;
 	}
 
 	nav a {
@@ -409,6 +396,8 @@ footer {
 
 	.container {
 		cursor: pointer;
+		margin-left: 67%;
+		margin-top: -9%;
 	}
 
 	.b1, .b2, .b3 {
@@ -465,10 +454,10 @@ footer {
 		position: absolute;
 		width: 320px;
 		height: 124px;
-		left: 8px;
-		top: 500vh;
-		font-size: 35px;
-		line-height: 40px;
+		left: 27.5vw;
+		top: 17.6vh;
+		font-size: 38.7px;
+		line-height: 47px;
 		display: flex;
 		align-items: center;
 		text-align: center;
@@ -476,12 +465,12 @@ footer {
 
 	.section__text_alt {
 		position: absolute;
-		width: 260px;
+		width: 320px;
 		height: 75px;
-		left: 10%;
-		top: 45%;
-		font-size: 15.5px;
-		line-height: 19px;
+		left: 27.8vw;
+		top: 41vh;
+		font-size: 17.9px;
+		line-height: 21px;
 		display: flex;
 		align-items: center;
 		text-align: center;
@@ -491,34 +480,34 @@ footer {
 		position: absolute;
 		width: 205px;
 		height: 24px;
-		left: 25%;
-		top: 62%;
+		left: 27.5vw;
+		top: 62.2vh;
 	}
 
 	.section__submit_text {
 		position: absolute;
 		width: 205px;
 		height: 24px;
-		left: 2px;
-		top: -84px;
-		font-size: 17.8px;
+		left: 0;
+		top: 0;
+		font-size: 19px;
 		line-height: 23px;
 	}
 
 	.section__submit_input {
 		position: absolute;
-		width: 282px;
+		width: 320px;
 		height: 35px;
-		left: 3px;
-		top: -46px;
+		left: 0;
+		top: 8vh;
 	}
 
 	.section__submit_button {
 		position: absolute;
-		width: 297px;
-		height: 39px;
-		left: 3px;
-		top: 4.4px;
+		width: 325px;
+		height: 42px;
+		left: 0;
+		top: 15.8vh;
 		font-size: 13px;
 		text-align: center;
 		line-height: 16px;
@@ -526,12 +515,12 @@ footer {
 
 	.section__submit_agreement {
 		position: absolute;
-		width: 300px;
+		width: 325px;
 		height: 28px;
-		left: 2px;
-		top: 174px;
-		font-size: 11.8px;
-		line-height: 14px;
+		left: 0;
+		top: 22vh;
+		font-size: 13px;
+		line-height: 15px;
 	}
 
 	footer {
