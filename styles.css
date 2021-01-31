@@ -47,10 +47,10 @@ nav {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 12.2px;
-	line-height: 21px;
-	word-spacing: 15.9px;
-	bottom: 6.5vh;
-	right: 11.2vw;
+	line-height: 14px;
+	word-spacing: 15.2px;
+	bottom: 6.2vh;
+	right: 11.4vw;
 }
 
 nav a {
@@ -73,7 +73,7 @@ nav a:hover {
 .section__text {
 	position: relative;
 	left: 12.5%;
-	top: 15%;
+	top: 15.5%;
 	width: 380px;
 	height: 180px;
 	font-family: Roboto;
@@ -88,7 +88,7 @@ nav a:hover {
 
 .section__text_alt {
 	left: 12.9%;
-	bottom: 19vh;
+	top: 21.7vh;
 	width: 410px;
 	height: 81px;
 	font-weight: normal;
@@ -98,8 +98,8 @@ nav a:hover {
 
 .section__submit {
 	position: relative;
-	top: -6vw;
-	left: 61.9vw;
+	top: -5.6vw;
+	left: 60.4vw;
 	width: 100%;
 	height: 320px;
 }
@@ -121,7 +121,7 @@ nav a:hover {
 .section__submit_input {
 	top: 0;
 	left: 0;
-	width: 268px;
+	width: 270px;
 	height: 33px;
 	background: #FFFFFF;
 	border-radius: 3px;
@@ -131,7 +131,7 @@ nav a:hover {
 .section__submit_button {
 	top: 1.3vh;
 	left: 0;
-	width: 275px;
+	width: 279px;
 	height: 38px;
 	background: #7400E8;
 	border-radius: 3px;
@@ -156,7 +156,7 @@ nav a:hover {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 11.2px;
 	line-height: 14.9px;
 	color: #000000;
 	opacity: 0.5;
@@ -212,15 +212,15 @@ footer {
 
 	nav {
 		right: 10.4vw;
-		top: -8vh;
+		top: -7.5vh;
 		color: #2E1449;
 		text-align: right;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 12.9px;
-		line-height: 21px;
-		word-spacing: 20px;
+		font-size: 13.6px;
+		line-height: 6px;
+		word-spacing: 18.5px;
 	}
 
 	nav a {
@@ -249,7 +249,7 @@ footer {
 		display: flex;
 		color: #2E1449;
 		left: 4.6vw;
-		top: 15vh;
+		top: 16vh;
 	}
 
 	.section__text_alt {
@@ -259,14 +259,14 @@ footer {
 		font-size: 13.2px;
 		line-height: 15.5px;
 		left: 4.6vw;
-		top: 12.8vh;
+		top: 13.8vh;
 	}
 
 	.section__submit {
 		width: 350px;
 		height: 210px;
-		top: -42vh;
-		left: 51vw;
+		top: -41vh;
+		left: 51.5vw;
 	}
 
 	.section__submit_text {
